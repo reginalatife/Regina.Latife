@@ -343,6 +343,27 @@ button,input,textarea{font:inherit}
   opacity:.9;
   margin-bottom:12px;
 }
+@media(max-width:768px){
+
+  .footer-banner__grid{
+    grid-template-columns:1fr;
+    gap:36px;
+    padding:60px 24px;
+  }
+
+  .mini-title{
+    font-size:10px;
+    letter-spacing:.18em;
+    margin-bottom:10px;
+  }
+
+  .footer-banner .muted{
+    font-size:15px;
+    line-height:1.7;
+  }
+
+}
+
 .footer-banner .muted{color: rgba(255,255,255,.72)}
 
 /* Galería */
