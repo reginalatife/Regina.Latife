@@ -520,14 +520,23 @@ button,input,textarea{font:inherit}
 }
 
 .contact-card__title{
-  font-size:clamp(48px, 10vw, 120px);
+  font-size:clamp(64px, 8vw, 140px);
   line-height:.9;
-  letter-spacing:.02em;
-
-  word-break:break-word;
-  overflow-wrap:break-word;
+  letter-spacing:-0.04em;
+  font-weight:600;
 }
+@media(max-width:768px){
 
+  .contact-card__title{
+    font-size:15vw;
+    line-height:.82;
+    letter-spacing:-0.06em;
+
+    word-break:break-word;
+    overflow-wrap:break-word;
+  }
+
+}
 
 .contact-card__grid{
   display:grid;
