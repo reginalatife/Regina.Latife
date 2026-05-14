@@ -694,5 +694,24 @@ button,input,textarea{font:inherit}
   }
 
 }
+/* =========================
+   MOBILE FIX CONTACT TITLE
+========================= */
 
+@media screen and (max-width:768px){
+
+  .contact-card__title{
+    font-size:64px !important;
+    line-height:.9 !important;
+    letter-spacing:-0.05em !important;
+
+    max-width:100% !important;
+    width:100% !important;
+
+    white-space:normal !important;
+    word-break:keep-all !important;
+    overflow-wrap:break-word !important;
+  }
+
+}
 
