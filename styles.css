@@ -494,14 +494,14 @@ button,input,textarea{font:inherit}
   opacity: .85;
 }
 
-/* ✅ CONTÁCTAME serif gigante */
 .contact-card__title{
-  font-family: var(--title);   /* Inter */
-  font-weight: 700;            /* Bold */
-  letter-spacing: .12em;
-  text-transform: uppercase;
-}
+  font-size:clamp(48px, 10vw, 120px);
+  line-height:.9;
+  letter-spacing:.02em;
 
+  word-break:break-word;
+  overflow-wrap:break-word;
+}
 
 
 .contact-card__grid{
