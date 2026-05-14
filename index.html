@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Regina Latife</title>
+
+  <!-- Tipografías similares al estilo de referencia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,300;9..144,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container header-row">
+      <a class="brand" href="#home" data-route="home" aria-label="Ir a inicio">
+        <span class="brand__name">REGINA LATIFE</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="nav__link" href="#home" data-route="home">HOME</a>
+        <a class="nav__link" href="#galeria" data-route="galeria">GALERÍA</a>
+        <a class="nav__link" href="#contacto" data-route="contacto">CONTACTO</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="page is-active" id="page-home" data-page="home">
+      <section class="hero hero--split" style="--hero-image:url('assets/hero-1.jpg');">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__content hero__content--center">
+          <h1 class="hero__title">ÓLEO<br/>PINTURA FIGURATIVA</h1>
+          <p class="hero__subtitle">Pintura como permanencia del recuerdo.</p>
+          <a class="btn btn--ghost" href="#galeria" data-route="galeria">VER GALERÍA →</a>
+        </div>
+
+        <button class="scroll-cue" type="button" aria-label="Bajar a la siguiente sección" data-scroll-next>
+          <span aria-hidden="true">↓</span>
+        </button>
+      </section>
+
+      <section class="editorial">
+  <div class="editorial__media">
+    <img src="assets/product-1.jpg" alt="">
+  </div>
+
+  <div class="editorial__content">
+    <div class="editorial__label">LATENCIA</div>
+
+    <h2 class="editorial__title">
+      Pintura como permanencia del recuerdo.
+    </h2>
+
+    <p class="editorial__text">
+      La obra explora la memoria como una presencia suspendida.
+      Cada composición contiene una sensación de tiempo detenido,
+      donde la imagen permanece silenciosamente.
+    </p>
+
+    <a href="#galeria" class="editorial__link">
+      VER GALERÍA →
+    </a>
+  </div>
+</section>
+
+      <section class="hero hero--left" id="home-next" style="--hero-image:url('assets/hero-2.jpg');">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__content hero__content--left">
+          <h2 class="section-kicker">LATENCIA</h2>
+          <p class="muted">Explora la idea de un tiempo suspendido: momentos de presencia, celebración y cuidado que permanecen antes de desvanecerse. A través de flores y jarrones orgánicos, la serie construye imágenes ligadas a la memoria afectiva y a lo efímero, donde la pintura funciona como un espacio de contemplación y permanencia sensible.</p>
+          <a class="btn btn--ghost" href="#galeria" data-route="galeria">VER ACÁ →</a>
+        </div>
+      </section>
+
+      <!-- section class="section">
+        <div class="container">
+          <div class="two-col">
+            <div class="two-col__left">
+              <h2 class="display">MIRA<br/>LO NUEVO</h2>
+              <a class="btn btn--solid" href="#galeria" data-route="galeria">VER →</a>
+            </div>
+
+            <div class="two-col__right">
+              <div class="grid grid--products">
+                <article class="card">
+                  <a class="card__img" href="#galeria" data-route="galeria" aria-label="Ver Cuadro">
+                    <img src="assets/product-1.jpg" alt="Obra individual" loading="lazy">
+                  </a>
+                  <div class="card__meta">
+                    <div class="card__title">Incandescencia</div>
+                    <div class="card__price">Óleo sobre tela, 100 x 120 cm.</div>
+                    <div class="card__price">$800.000CLP</div>
+                  </div>
+                </article>
+
+                <article class="card">
+                  <a class="card__img" href="#galeria" data-route="galeria" aria-label="Ver Cuadro">
+                    <img src="assets/product-2.jpg" alt="Jarrón grande de cerámica" loading="lazy">
+                  </a>
+                  <div class="card__meta">
+                    <div class="card__title">Anacoresis</div>
+                    <div class="card__price">Óleo sobre tela, 100 x 100 cm.</div>
+                    <div class="card__price">$650.000</div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
+
+      <section class="section section--tight">
+        <div class="container">
+          <div class="journal-head">
+            <h2 class="display">SOBRE MÍ</h2>
+            <a class="btn btn--solid" href="https://www.instagram.com/regina.latife/"    target="_blank" rel="noopener noreferrer">VER INSTAGRAM →</a>
+          </div>
+
+          <div class="grid grid--journal">
+            <article class="journal-card">
+              <a class="journal-card__img" href="#galeria" data-route="galeria">
+                <img src="assets/journal-1.jpg" alt="Foto editorial" loading="lazy">
+              </a>
+              <div class="journal-card__body">
+                <h3 class="journal-card__title">LA OBRA SE CONSTRUYE DESDE UNA VISIÓN DISCIPLINADA </h3>
+              </div>
+            </article>
+
+            <article class="journal-card journal-card--wide">
+              <a class="journal-card__img" href="#galeria" data-route="galeria">
+                <img src="assets/journal-2.jpg" alt="Proceso" loading="lazy">
+              </a>
+              <div class="journal-card__body">
+                <h3 class="journal-card__title">PROCESO Y ESPACIO</h3>
+                <div class="journal-card__date">Febrero 27, 2026</div>
+                <p class="muted">
+                  Pintar es la forma más honesta en la que habito el mundo.
+                  En la tela encuentro concentración, pausa y una sensación profunda de estabilidad.
+                  El proceso se convierte en un espacio propio, esencial.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-banner" style="--banner-image:url('assets/hero-1.jpg');">
+        <div class="footer-banner__bg" aria-hidden="true"></div>
+        <div class="container footer-banner__grid">
+          <div>
+            <div class="mini-title">TALLER</div>
+            <p class="muted">
+              Vitacura, Santiago<br/>
+              Chile
+            </p>
+          </div>
+          <div>
+            <div class="mini-title">CONTACTO</div>
+            <p class="muted">
+              regilatife@gmail.com<br/>
+              +56 9 79675625
+            </p>
+          </div>
+          <div>
+            <div class="mini-title">HORARIO</div>
+            <p class="muted">
+              Lun–Vie 9am–6pm<br/>
+              Sab–Dom 10pm–3pm
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="page" id="page-galeria" data-page="galeria">
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="display">GALERÍA</h1>
+          <p class="muted">Acá encontrarás.</p>
+
+          <div class="toolbar" role="group" aria-label="Filtros">
+            <button class="pill is-active" type="button" data-filter="all">TODOS</button>
+            <button class="pill" type="button" data-filter="obra individual">OBRA INDIVIDUAL</button>
+            <button class="pill" type="button" data-filter="edición especial">EDICIÓN ESPECIAL</button>
+            <button class="pill" type="button" data-filter="políptico">POLÍPTICO</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid grid--shop" id="shopGrid">
+            <article class="product" data-type="obra individual">
+              <div class="product__img">
+                <img src="assets/product-1.jpg" alt="Obra individual" loading="lazy">
+              </div>
+              <div class="product__meta">
+                <div class="product__name">Soft Celebration</div>
+                <div class="product__details">Óleo sobre tela · 2025</div>
+                <div class="product__details">100 × 120 cm</div>
+                 <!-- <div class="product__price">$800.000</div>-->
+              </div>
+            </article>
+
+            <article class="product" data-type="obra individual">
+              <div class="product__img">
+                <img src="assets/product-2.jpg" alt="Obra individual" loading="lazy">
+              </div>
+              <div class="product__meta">
+                <div class="product__name">Arriving at Night</div>
+                <div class="product__details">Óleo sobre lienzo · 2026</div>
+                <div class="product__details">100 × 100 cm</div>
+                 <!-- <div class="product__price">$84.00</div>-->
+              </div>
+            </article>
+
+            <article class="product" data-type="obra individual">
+              <div class="product__img">
+                <img src="assets/product-3.jpg" alt="Obra individual" loading="lazy">
+              </div>
+              <div class="product__meta">
+                <div class="product__name">Summer isn´t over yet</div>
+                <div class="product__details">Óleo sobre lienzo · 2026 · 70 × 90 cm</div>
+                <!-- <div class="product__price">$84.00</div>-->
+              </div>
+            </article>
+
+
+            <article class="product" data-type="obra individual">
+              <div class="product__img">
+                <img src="assets/product-4.jpg" alt="Obra individual" loading="lazy">
+              </div>
+              <div class="product__meta">
+                <div class="product__name">Wedding Bells</div>
+                <div class="product__details">Óleo sobre tela · 2026</div>
+                <div class="product__details">70 × 90 cm</div>
+                <!-- <div class="product__price">$84.00</div>-->
+              </div>
+            </article>
+
+
+            <article class="product" data-type="obra individual">
+              <div class="product__img">
+                <img src="assets/product-5.jpg" alt="Obra individual" loading="lazy">
+              </div>
+              <div class="product__meta">
+                <div class="product__name">What Remains</div>
+                <div class="product__details">Óleo sobre lienzo · 2026 · 70 × 90 cm</div>
+               <!-- <div class="product__price">$84.00</div>-->
+              </div>
+            </article>
+
+            <article class="product" data-type="políptico">
+              <div class="product__img">
+                <img src="assets/product-6.jpg" alt="Políptico" loading="lazy">
+              </div>
+              <div class="product__meta">
+                <div class="product__name">XOXO</div>
+                <div class="product__details">Óleo sobre lienzo · 2026 · 50 × 50 cm</div>
+               <!-- <div class="product__price">$84.00</div>-->
+              </div>
+            </article>
+
+      
+          </div>
+        </div>
+      </section>
+    </section> <!-- ✅ cierre correcto de page-galeria -->
+
+    <!-- CONTACTO -->
+    <section class="page" id="page-contacto" data-page="contacto">
+      <section class="contact-page">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-card__top">
+              <div class="contact-card__brand">REGINA LATIFE</div>
+              <div class="contact-card__label">CONTACTO</div>
+            </div>
+
+            <h1 class="contact-card__title">CONTÁCTAME</h1>
+
+            <div class="contact-card__grid">
+              <div class="contact-block">
+                <div class="contact-block__title">TALLER</div>
+                <p class="contact-block__text">
+                  Santiago, Chile<br/>
+                  (Dirección bajo solicitud)
+                </p>
+              </div>
+
+              <div class="contact-block">
+                <div class="contact-block__title">EMAIL</div>
+                <p class="contact-block__text">
+                  <a class="contact-link" href="mailto:tuemail@correo.com">regilatife@gmail.com</a>
+                </p>
+              </div>
+
+              <div class="contact-block">
+                <div class="contact-block__title">TELÉFONO</div>
+                <p class="contact-block__text">
+                  <a class="contact-link" href="tel:+56900000000">+56 9 79675625</a>
+                </p>
+              </div>
+
+              <div class="contact-block">
+                <div class="contact-block__title">REDES</div>
+                <p class="contact-block__text">
+                  <a class="contact-link"  href="https://www.instagram.com/regina.latife/"  target="_blank" rel="noreferrer">Instagram</a><br/>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-card__footer">
+              <p class="muted">
+                Para coleccionistas, galerías o colaboraciones, escríbeme por email.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-banner" style="--banner-image:url('assets/hero-1.JPG');">
+        <div class="footer-banner__bg" aria-hidden="true"></div>
+        <div class="container footer-banner__grid">
+          <div>
+            <div class="mini-title">TALLER</div>
+            <p class="muted">Santiago, Chile</p>
+          </div>
+          <div>
+            <div class="mini-title">EMAIL</div>
+            <p class="muted">regilatife@gmail.com</p>
+          </div>
+          <div>
+            <div class="mini-title">HORARIO</div>
+            <p class="muted">Con cita previa</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
