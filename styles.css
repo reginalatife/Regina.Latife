@@ -1,4 +1,8 @@
-:root{
+
+html,
+body{
+  overflow-x:hidden;
+}:root{
   --bg:#ffffff;
   --ink:#141414;
   --muted:#8c8c8c;
