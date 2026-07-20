@@ -712,16 +712,14 @@ button,input,textarea{font:inherit}
 }
 
 /* Cuadros cuadrados más pequeños */
-.square-art-wrapper{
-  width:75%;
-  margin:0 auto;
-  background:transparent;
+.product__img.small-square{
+    background: transparent;
 }
 
-.square-art-wrapper img{
-  width:100%;
-  height:auto;
-  display:block;
+.product__img.small-square img{
+    width: 82%;
+    margin: 0 auto;
+    display: block;
 }
 
 }
