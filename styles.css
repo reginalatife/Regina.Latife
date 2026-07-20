@@ -709,11 +709,19 @@ button,input,textarea{font:inherit}
 
     max-width:100%;
   }
-  .square-art{
-    width: 85%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+}
+
+/* Cuadros cuadrados más pequeños */
+.square-art-wrapper{
+  width:75%;
+  margin:0 auto;
+  background:transparent;
+}
+
+.square-art-wrapper img{
+  width:100%;
+  height:auto;
+  display:block;
 }
 
 }
