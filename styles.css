@@ -711,15 +711,4 @@ button,input,textarea{font:inherit}
   }
 }
 
-/* Cuadros cuadrados más pequeños */
-.product__img.small-square{
-    background: transparent;
-}
-
-.product__img.small-square img{
-    width: 82%;
-    margin: 0 auto;
-    display: block;
-}
-
 }
