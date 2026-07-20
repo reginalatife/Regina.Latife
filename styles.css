@@ -709,5 +709,11 @@ button,input,textarea{font:inherit}
 
     max-width:100%;
   }
+  .square-art{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
 
 }
