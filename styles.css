@@ -710,18 +710,7 @@ button,input,textarea{font:inherit}
     max-width:100%;
   }
 }
-.product--square{
-  width:100%;
-  max-width:100%;
-  margin:0 0 18px;
-}
 
-@media (min-width:681px){
-  .product--square{
-    width:700px;
-    max-width:100%;
-    margin:0 auto 18px;
-  }
 }
 
 }
