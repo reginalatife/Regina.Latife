@@ -712,5 +712,27 @@ button,input,textarea{font:inherit}
 }
 
 }
+/* Obras cuadradas más pequeñas en computador */
+.product--square{
+  width:100%;
+  max-width:100%;
+}
+
+.product--square .product__img,
+.product--square .product__meta{
+  width:82%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* En teléfono ocupan todo el ancho disponible */
+@media (max-width:680px){
+  .product--square .product__img,
+  .product--square .product__meta{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+  }
+}
 
 }
