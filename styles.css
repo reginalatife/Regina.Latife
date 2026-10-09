@@ -1089,7 +1089,7 @@ button:focus-visible {
    ========================================================= */
 
 .artwork--vertical-featured .artwork__visual img {
-  transform: scale(1.24);
+  transform: scale(1.42);
   transform-origin: center center;
 }
 
@@ -1098,7 +1098,7 @@ button:focus-visible {
 @media (max-width: 680px) {
 
   .artwork--vertical-featured .artwork__visual img {
-    transform: scale(1.20);
+    transform: scale(1.34);
   }
 
 }
