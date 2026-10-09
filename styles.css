@@ -1083,22 +1083,57 @@ button:focus-visible {
     transition-duration: .01ms !important;
   }
 }
+
 /* =========================================================
-   VERTICALES DESTACADAS
-   Wedding Bells + What Remains
+   WEDDING BELLS + WHAT REMAINS
+   Verticals featured
    ========================================================= */
 
+.artwork--vertical-featured .artwork__visual {
+  height: 590px;
+}
+
 .artwork--vertical-featured .artwork__visual img {
-  transform: scale(1.42);
-  transform-origin: center center;
+  width: auto;
+  height: 550px;
+
+  max-width: 78%;
+  max-height: 550px;
+
+  object-fit: contain;
+}
+
+
+/* TABLET */
+@media (max-width: 1050px) {
+
+  .artwork--vertical-featured .artwork__visual {
+    height: 540px;
+  }
+
+  .artwork--vertical-featured .artwork__visual img {
+    height: 500px;
+
+    max-width: 78%;
+    max-height: 500px;
+  }
+
 }
 
 
 /* MOBILE */
 @media (max-width: 680px) {
 
+  .artwork--vertical-featured .artwork__visual {
+    height: 520px;
+  }
+
   .artwork--vertical-featured .artwork__visual img {
-    transform: scale(1.34);
+    width: auto;
+    height: 480px;
+
+    max-width: 82%;
+    max-height: 480px;
   }
 
 }
