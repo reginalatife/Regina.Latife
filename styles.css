@@ -1084,61 +1084,21 @@ button:focus-visible {
   }
 }
 /* =========================================================
-   AJUSTE OBRAS VERTICALES
+   VERTICALES DESTACADAS
    Wedding Bells + What Remains
    ========================================================= */
 
-/* DESKTOP */
-.artwork--portrait .artwork__visual {
-  height: 560px;
-}
-
-.artwork--portrait .artwork__visual img {
-  width: auto;
-  height: 520px;
-
-  max-width: 72%;
-  max-height: 520px;
-
-  object-fit: contain;
-}
-
-
-/* TABLET */
-@media (max-width: 1050px) {
-
-  .artwork--portrait .artwork__visual {
-    height: 510px;
-  }
-
-  .artwork--portrait .artwork__visual img {
-    width: auto;
-    height: 470px;
-
-    max-width: 72%;
-    max-height: 470px;
-
-    object-fit: contain;
-  }
-
+.artwork--vertical-featured .artwork__visual img {
+  transform: scale(1.24);
+  transform-origin: center center;
 }
 
 
 /* MOBILE */
 @media (max-width: 680px) {
 
-  .artwork--portrait .artwork__visual {
-    height: 500px;
-  }
-
-  .artwork--portrait .artwork__visual img {
-    width: auto;
-    height: 460px;
-
-    max-width: 74%;
-    max-height: 460px;
-
-    object-fit: contain;
+  .artwork--vertical-featured .artwork__visual img {
+    transform: scale(1.20);
   }
 
 }
